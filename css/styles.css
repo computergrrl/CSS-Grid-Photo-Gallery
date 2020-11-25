@@ -1,0 +1,18 @@
+#gallery {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#searchDiv {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#searchDiv input[type="search"] {
+    margin: 15px auto;
+    width: 75%;
+    border: lightslategray 1px solid;
+}
