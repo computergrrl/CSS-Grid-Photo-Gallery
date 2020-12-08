@@ -1,8 +1,8 @@
-#gallery {
-    margin: 0 auto;
-    width: 80%;
+.gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
 }
 
