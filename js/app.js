@@ -9,12 +9,12 @@ function photoSearch() {
 
     //loop through gallery a
     for (let i=0; i < gallery.length; i++) {
-        let randomVariableOnceIFigureItOut = "SOME VALUE HERE";
+        let caption = gallery[i].getAttribute("data-caption");
 
-          if(randomVariableOnceIFigureItOut.toLowerCase().indexOf(userInput) > -1) {
+          if(caption.toLowerCase().indexOf(userInput) > -1) {
               gallery[i].style.display = " ";
           } else {
-              gallery[i].display.style= "none";
+              gallery[i].style.display = "none";
           }
     }
 }

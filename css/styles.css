@@ -25,6 +25,8 @@ body {
 
 #searchDiv input[type="search"] {
     margin: 15px auto;
-    width: 65%;
-    border: lightslategray 1px solid;
+    width: 85%;
+    border: rgba(184, 186, 187, .5) 3px ridge;
+    border-radius: .5em;
+    padding: 8px;
 }
