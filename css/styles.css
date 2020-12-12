@@ -17,13 +17,14 @@ body {
 }
 
 #searchDiv {
-    display: block;
+    display: flex;
     width: 60%;
-    margin: 0 auto;
+    margin: 40px auto;
+    justify-content: center;
 }
 
 #searchDiv input[type="search"] {
     margin: 15px auto;
-    width: 75%;
+    width: 65%;
     border: lightslategray 1px solid;
 }
