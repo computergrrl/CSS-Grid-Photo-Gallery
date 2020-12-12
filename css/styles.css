@@ -1,13 +1,24 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .gallery {
     display: grid;
     margin: auto;
-    width: 80%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    width: 85%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, min-content));
+    justify-content: center;
+    grid-gap: 15px;
 }
 
 #searchDiv {
-    width: 80%;
+    display: block;
+    width: 60%;
     margin: 0 auto;
 }
 
